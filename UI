@@ -17,7 +17,7 @@ local OrionLib = {
 			Stroke = Color3.fromRGB(0, 255, 0),
 			Divider = Color3.fromRGB(0, 255, 0),
 			Text = Color3.fromRGB(255, 0, 0),
-			TextDark = Color3.fromRGB(150, 150, 150)
+			TextDark = Color3.fromRGB(255, 255, 0)
 		}
 	},
 	SelectedTheme = "Default",
@@ -262,7 +262,7 @@ end)
 
 CreateElement("Stroke", function(Color, Thickness)
 	local Stroke = Create("UIStroke", {
-		Color = Color or Color3.fromRGB(0, 0, 255),
+		Color = Color or Color3.fromRGB(0, 255, 255),
 		Thickness = Thickness or 1
 	})
 	return Stroke
