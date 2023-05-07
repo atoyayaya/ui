@@ -1150,7 +1150,7 @@ function library:CreateWindow(name, version, icon)
 
 				Dot.Name = "Dot"
 				Dot.Parent = Indicator
-				Dot.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+				Dot.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 				Dot.BackgroundTransparency = 1.000
 				Dot.Position = UDim2.new(0, 2, 0, 2)
 				Dot.Size = UDim2.new(1, -4, 1, -4)
