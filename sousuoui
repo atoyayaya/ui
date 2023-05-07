@@ -1143,7 +1143,7 @@ function library:CreateWindow(name, version, icon)
 				UIStroke.Name = "UIStroke"
 				UIStroke.Parent = Indicator
 				UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
-				UIStroke.Color = Color3.fromRGB(0, 0, 255)
+				UIStroke.Color = Color3.fromRGB(0, 0, 0)
 				UIStroke.LineJoinMode = Enum.LineJoinMode.Round
 				UIStroke.Thickness = 2
 				UIStroke.Transparency = 0
