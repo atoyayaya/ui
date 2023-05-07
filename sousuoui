@@ -1123,7 +1123,7 @@ function library:CreateWindow(name, version, icon)
 
 				Description.Name = "Description"
 				Description.Parent = Toggle
-				Description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Description.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				Description.BackgroundTransparency = 1.000
 				Description.Position = UDim2.new(0, 7, 0.5, -1)
 				Description.Size = UDim2.new(1, -7, 0.5, 0)
