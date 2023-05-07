@@ -912,7 +912,7 @@ function library:CreateWindow(name, version, icon)
 
 				Container_3.Name = "Container"
 				Container_3.Parent = TextBox
-				Container_3.BackgroundColor3 = Color3.fromRGB(40, 40, 48)
+				Container_3.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				Container_3.BorderSizePixel = 0
 				Container_3.Size = UDim2.new(1, 0, 1, -1)
 				Container_3.ZIndex = 2
