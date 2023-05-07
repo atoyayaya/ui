@@ -355,7 +355,7 @@ function library:CreateWindow(name, version, icon)
 			SearchBox.PlaceholderColor3 = Color3.fromRGB(0, 0, 255)
 			SearchBox.PlaceholderText = "在这里搜索～"
 			SearchBox.Text = ""
-			SearchBox.TextColor3 = Color3.fromRGB(227, 225, 228)
+			SearchBox.TextColor3 = Color3.fromRGB(0, 0, 255)
 			SearchBox.TextSize = 12.000
 			SearchBox.TextXAlignment = Enum.TextXAlignment.Left
 
