@@ -60,7 +60,7 @@ function library:CreateWindow(name, version, icon)
 	Icon.Position = UDim2.new(0, 6, 0, 6)
 	Icon.Size = UDim2.new(0, 18, 0, 18)
 	Icon.Image = "rbxassetid://"..icon
-	Icon.ImageColor3 = Color3.fromRGB(135, 255, 135)
+	Icon.ImageColor3 = Color3.fromRGB(0, 0,255)
 
 	MainTitle.Name = "Title"
 	MainTitle.Parent = TitleBar
