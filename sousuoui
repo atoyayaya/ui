@@ -1111,7 +1111,7 @@ function library:CreateWindow(name, version, icon)
 
 				ToggleTitle.Name = "Title"
 				ToggleTitle.Parent = Toggle
-				ToggleTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				ToggleTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				ToggleTitle.BackgroundTransparency = 1.000
 				ToggleTitle.Position = UDim2.new(0, 7, 0, 1)
 				ToggleTitle.Size = UDim2.new(1, -7, 0.5, 0)
@@ -1143,14 +1143,14 @@ function library:CreateWindow(name, version, icon)
 				UIStroke.Name = "UIStroke"
 				UIStroke.Parent = Indicator
 				UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
-				UIStroke.Color = Color3.fromRGB(135, 255, 135)
+				UIStroke.Color = Color3.fromRGB(0, 0, 255)
 				UIStroke.LineJoinMode = Enum.LineJoinMode.Round
 				UIStroke.Thickness = 2
 				UIStroke.Transparency = 0
 
 				Dot.Name = "Dot"
 				Dot.Parent = Indicator
-				Dot.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+				Dot.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				Dot.BackgroundTransparency = 1.000
 				Dot.Position = UDim2.new(0, 2, 0, 2)
 				Dot.Size = UDim2.new(1, -4, 1, -4)
