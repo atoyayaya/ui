@@ -258,7 +258,7 @@ function library:CreateWindow(name, version, icon)
 		PageButton.Size = UDim2.new(1, -14, 0, 20)
 		PageButton.Font = Enum.Font.Gotham
 		PageButton.Text = "Page 1"
-		PageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+		PageButton.TextColor3 = Color3.fromRGB(0, 0, 255)
 		PageButton.TextSize = 12.000
 		PageButton.TextXAlignment = Enum.TextXAlignment.Left]]
 
