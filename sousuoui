@@ -1103,7 +1103,7 @@ function library:CreateWindow(name, version, icon)
 
 				Toggle.Name = "Toggle"
 				Toggle.Parent = SectionContainer
-				Toggle.BackgroundColor3 = Color3.fromRGB(40, 40, 48)
+				Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				Toggle.Size = UDim2.new(1, 0, 0, 40)
 
 				UICorner.CornerRadius = UDim.new(0, 4)
@@ -1135,7 +1135,7 @@ function library:CreateWindow(name, version, icon)
 
 				Indicator.Name = "Indicator"
 				Indicator.Parent = Toggle
-				Indicator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Indicator.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				Indicator.BackgroundTransparency = 1.000
 				Indicator.Position = UDim2.new(1, -29, 0, 11)
 				Indicator.Size = UDim2.new(0, 18, 0, 18)
