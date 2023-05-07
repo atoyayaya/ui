@@ -298,13 +298,13 @@ function library:CreateWindow(name, version, icon)
 			Page.Name = "Page"
 			Page.Parent = Window
 			Page.Active = true
-			Page.BackgroundColor3 = Color3.fromRGB(40, 40, 48)
+			Page.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 			Page.BorderColor3 = Color3.fromRGB(27, 42, 53)
 			Page.BorderSizePixel = 0
 			Page.Position = UDim2.new(0, 150, 0, 36)
 			Page.Size = UDim2.new(1, -155, 1, -41)
 			Page.ScrollBarThickness = 5
-			Page.ScrollBarImageColor3 = Color3.fromRGB(135, 255, 135)
+			Page.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 255)
 			Page.AutomaticCanvasSize = "Y"
 			Page.Visible = false
 
