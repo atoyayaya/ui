@@ -902,7 +902,7 @@ function library:CreateWindow(name, version, icon)
 
 				Footer_3.Name = "Footer"
 				Footer_3.Parent = TextBox
-				Footer_3.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+				Footer_3.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				Footer_3.BackgroundTransparency = 0.750
 				Footer_3.Position = UDim2.new(0, 0, 1, -8)
 				Footer_3.Size = UDim2.new(1, 0, 0, 8)
