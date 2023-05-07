@@ -227,7 +227,7 @@ function library:CreateWindow(name, version, icon)
 
 		Tabs.Name = "Tabs"
 		Tabs.Parent = Window
-		Tabs.BackgroundColor3 = Color3.fromRGB(40, 40, 48)
+		Tabs.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Tabs.Position = UDim2.new(0, 5, 0, 36)
 		Tabs.Size = UDim2.new(0, 140, 1, -41)
 
