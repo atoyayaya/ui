@@ -896,7 +896,7 @@ function library:CreateWindow(name, version, icon)
 
 				TextBox.Name = "TextBox"
 				TextBox.Parent = SectionContainer
-				TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				TextBox.BackgroundTransparency = 1.000
 				TextBox.Size = UDim2.new(1, 0, 0, 30)
 
