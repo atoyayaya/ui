@@ -347,7 +347,7 @@ function library:CreateWindow(name, version, icon)
 
 			SearchBox.Name = "SearchBox"
 			SearchBox.Parent = SearchBar
-			SearchBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			SearchBox.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 			SearchBox.BackgroundTransparency = 1.000
 			SearchBox.Position = UDim2.new(0, 40, 0, 1)
 			SearchBox.Size = UDim2.new(1, -40, 1, 0)
